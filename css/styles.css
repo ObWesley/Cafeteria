@@ -13,7 +13,7 @@ header{
     background-size: 100%;
     background-position: 0 -650px;
     padding-top: 150px;
-    transition: ease 1s; /*efeito de aniamção com transition. 
+    transition: ease 1s; /*efeito de aniamção com transition. */
 }
 /* formartar a tag h1 que está dentro do header. Veja como fazemos */
 header h1{
@@ -46,7 +46,51 @@ header ul li a{
 }
 header nav ul li a:hover {
     color:chocolate
+}
 
+footer{
+    /* aplicar uma cor de fundo no rodapé */
+    background-color: chocolate;
+    /* aplicar margem interna */
+    padding: 21px;
+    padding-top: 40px;
+    height: 110px; /* altura do rodapé*/    
 
 }
 
+
+/* Para fazer uma formatação em uma tag que um id definido é nescessario
+que voce dicione um sustenido(#) ao inicio do nome do id. Neste caso o nosso aid tem 
+id chamado end, então aplicamos desta forma #end
+ */
+
+footer #end{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 10pt;  
+    float: left;   
+    /* border: solid 1px black; */
+
+}
+
+footer #redes{
+    /* border: solid 1px black; */
+    float: right;
+}
+
+footer #redes a{
+    text-decoration:none ;
+}
+
+footer #redes a img{
+width: 40px; /* diminuir a largura da imagem */ 
+height: 40px; /* diminuir a altura da imagem */
+margin: 5px;
+transition: ease .5s;
+}
+
+footer #redes img:hover{
+    /* relaizar uma rotação de 360 graus */
+    transform: rotate(360deg);
+
+}
