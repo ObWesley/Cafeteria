@@ -38,7 +38,43 @@ As áreas são:
     <!-- inico da área do main -->
 
 
-    <main></main>
+    <main>
+        <h2>Contato</h2>
+        <!-- Criação do formulario de contato com as tags:
+        form >> Formulario;
+        input >> Caixa para o usuario realizar a entrada de texto 
+        imput radio >> Botão de opção 
+        select>>> Menu de seleção
+        textarea >> Caixa onde o usuario podera escrever uma mensagem 
+        imput submit >> Botão para envio dos dados-->
+        <form>
+            <imput type="text" placeholder="Nome Completo" required>
+                <imput type="email" placeholder="E-Mail" required>
+                    <span>
+                        <input type="radio" name="sexo" value="Masculino"> masculino
+                        <input type="radio" name="sexo" value="Feminino"> Feminino
+                        <input type="radio" name="sexo" value="Outros"> Outros
+                    </span>
+
+                    <select>
+                        <option>Elogio</option>
+                        <option>Sugestão</option>
+                        <option>Crítica</option>
+                        <option>Dúvida</option>
+                        <option>outros</option>
+                    </select>
+
+                    <textarea>mensagem</textarea>
+                    <input type="submit" value="Enviar">
+
+
+
+        </form>
+
+
+
+
+    </main>
     <!-- fim da área main  -->
 
     <!-- Inico da área do footer  -->
