@@ -154,3 +154,57 @@ main    #video iframe{
 }
 
 /* fim da formatação da pagina historia  */
+
+
+/* ------ INICIO DA FORMATAÇÃO DA PAGINA CARDÁPIO -------- */
+/* main #area, 
+main #area #conteudo, 
+main #area #conteudo #img,
+main #area #conteudo #texto{
+    border: 2px solid rgb(7, 7, 7);
+} */
+
+main #area #conteudo #img img{
+    width: 200px;
+    height: 180px;
+}
+main #area #conteudo #img{
+    width: 210px;
+/* fazer a cauxa de imagem flutuar para a esquerda */
+    float: left;
+}
+main #area #conteudo #texto{
+    width: 600px;
+    float: left;
+}
+/* aplicar a exibição (dispay) inline-block para as caixas
+area e conteudo */
+main #area, main #area #conteudo{
+    display: inline-block;
+    width: 100%;
+}
+main #area #conteudo #texto h5{
+    font-family: arial;
+    font-size: arial;
+    margin: 1px;
+}
+main #area #conteudo #texto span{
+    color:chocolate
+}
+
+main #area #conteudo {
+    margin-left: 5px;
+    /* aplicar uma borda na parte inferior desta caixa */
+    border-bottom: lpx solid black;
+}
+
+main h3{
+    font-family: arial;
+    font-size: 20pt;
+    margin: 50px;
+
+}
+
+
+
+/* FIM DA FORMATAÇÃO DA PAGINA CARDAPIO  */
