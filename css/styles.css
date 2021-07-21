@@ -94,3 +94,42 @@ footer #redes img:hover{
     transform: rotate(360deg);
 
 }
+
+/* inico da formatação da pagina da pagina index */
+main h2{
+    font-family: arial;
+    font-size: 15pt;
+    margin: 50px;
+    border-bottom: rgb(7, 0, 0)1px solid;   
+}
+
+main p{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px; /* margem na parte inferior de cada paragrafo/*
+    text-align: justify; /* alinhamento do texto justificado*/
+    line-height: 22pt; /* tamanho da letra do texto */
+    font-size: 10pt; /* altura da linha que dá um efeito de espaçamento*/
+    line-height: arial;
+
+
+}
+main #imghome{
+    text-align: center;
+}
+main #home img{
+    width: 300px; /*largura da imagem */
+    height: 300px; /* altura da imagem*/
+    /* vamos arrendonar os cantos da imagem com o comando
+    border-radius. o Valor pode ser em pixel ou porcentagem*/
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 0,6;
+    transition: ease 0.5s;
+}
+
+main #imghome img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+/* fim da formatação da pagina index */
